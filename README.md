@@ -39,7 +39,13 @@ git switch -
 ```
 git merge <branch_name>
 ```
-+ 
++ Eliminar una rama:
+
+Recuerda que cuando se elimina una rama ya no podremos acceder a ella, pero sus commits de la rama eliminada queda 
+  en el historial de git (proyecto), al cual podemos acceder mediante los hash(id del commit). 
+```
+git branch -d <branch_name>
+```
 
 ## Estado de archivos
 ```
