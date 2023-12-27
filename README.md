@@ -33,7 +33,7 @@ git switch <branch_name>
 ```
 + Moverse entre dos ramas previamente visitadas:
 ```
-git switch -
+git switch -  
 ```
 + 
 
