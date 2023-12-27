@@ -184,3 +184,14 @@ git stash pop
 ```
 git stash drop
 ```
+
+## Sincronizar repositorio local con el remoto 
++ Agregamos al repositorio remoto:
+```
+git remote add origin <url_repository>
+```
++ Para subir cambios:
+```
+git push origin <main_branch_name>
+```
++ 
