@@ -136,4 +136,35 @@ Para nombrar los tags se recomienda hacerlo en minúsculas, y por lo mucho guion
 
 + Para crear un tag:
 ```
+git tag <tag_name>
+```
+
++ Para mostrar los tag:
+```
+git tag
+```
+
+## Stash
+Área temporal, aquí puede guardar cambios temporales que luego puede recuperar e eliminar mientras te mueves entre 
+ramas.
+Esto se usamos para cuando no queremos hacer commits de cambios simples.
+
++ Para crear un stash:
+```
+git stash
+```
+
++ Para mostrar todos los stash:
+```
+git stash list
+```
+
++ Para recuperar un stash:
+```
+git stash pop
+```
+
++ Para eliminar un stash: 
+```
+git stash drop
 ```
