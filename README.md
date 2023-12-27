@@ -32,3 +32,23 @@ Para hace un commit:
 ```
 git commit -m "description"
 ```
+
+## Historial de commit (Log)
+Muestra los commit que vamos realizando de nuestros archivos (proyecto).
+Esto los identifica con hash(Combinación de letras y números), este es único para cada commit que se va realizando 
+en el proyecto.
+
+Para mostrar el historial de commits del proyecto:
+```
+git log
+```
+
+## Resetear cambios
+Moverse a un punto concreto: 
+```
+git checkout <file>
+```
+Resetear cambios no guardados al último commit:
+```
+git reset
+```
