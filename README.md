@@ -190,8 +190,29 @@ git stash drop
 ```
 git remote add origin <url_repository>
 ```
+
 + Para subir cambios:
 ```
 git push origin <main_branch_name>
 ```
-+ 
+
++ Traer historial de cambios remotos:
+```
+git fetch
+```
+
++ Traer cambios remotos:
+```
+git pull origin <branch_name>
+```
+
+
+
+
+
+
+
+
+
+
+
