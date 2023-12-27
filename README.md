@@ -98,19 +98,29 @@ git checkout <hash [id del commit]>
 ```
 
 ## Alias
-Crear un alias para evitar escribir el comando completo del log:
++ Crear un alias para evitar escribir el comando completo del log:
 ```
 git config --global alias.name_alias "log --graph --pretty=oneline"
 ```
-Para usar el alias:
++ Para usar el alias:
 ```
 git name_alias
 ```
 
 ## Mostrar cambios
-Muestra que cambios nuevos se agregaron a que archivo y que se elimino:
++ Muestra que cambios nuevos se agregaron a que archivo y que se elimino:
 ```
 git diff
+```
+
++ Mostrar que cambios hay entre ramas:
+```
+git diff <branch_name>
+```
+
++ Mostrar que cambios hay entre ficheros:
+```
+git diff <file_name>
 ```
 
 ## Resetear cambios
