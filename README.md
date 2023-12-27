@@ -42,6 +42,30 @@ Para mostrar el historial de commits del proyecto:
 ```
 git log
 ```
+Ver el historial de una forma mas visual:
+```
+git log --graph
+```
+
+Ver el historial de forma resumida y visual:
+```
+git log --graph --pretty=oneline
+```
+
+Ver el historial de forma resumida:
+```
+git log --oneline
+```
+
+## Alias
+Crear un alias para evitar escribir el comando completo del log:
+```
+git config --global alias.name_alias "log --graph --pretty=oneline"
+```
+Para usar el alias:
+```
+git name_alias
+```
 
 ## Resetear cambios
 Moverse a un punto concreto: 
