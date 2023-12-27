@@ -35,6 +35,10 @@ git switch <branch_name>
 ```
 git switch -  
 ```
++ Fusionar ramas (main <- develop [traemos los cambios de develop a main]) :
+```
+git merge <branch_name>
+```
 + 
 
 ## Estado de archivos
