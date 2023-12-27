@@ -6,10 +6,37 @@ Dentro del proyecto ejecutamos el siguiente comando:
 git init
 ```
 ## Ramas (Branch)
-Renombrar la rama por defecto al inicalizar un repositorio:
+### ¿Qué es un rama?
+Es una copia identica de la rama principal (main|master) hasta el último commit realizado.
+Una rama siempre proviene de otra rama, es como un árbol en la vida real una rama sale de otra.
+En la rama principal mantenemos los commits principales el cual se subirar a producción en un app.
+Las ramas se puede unir a la principal a esto se le denómina **merge**.
+
+Las ramas se les puede nombrar:
+* Rama main(mater | main)
+* Rama development: "Para desarrollar o experimentar nuevas funcionalidades"
+* Rama hotfix: "Para arreglar bug de producción"
+---
++ Renombrar la rama por defecto al inicalizar un repositorio:
 ```
-git branch -m nombre_rama
+git branch -m <new_branch_name>
 ```
++ Crear una rama:
+```
+git branch <branch_name>
+git switch -c <branch_name>
+```
+
++ Moverse entre ramas:
+```
+git switch <branch_name>
+```
++ Moverse entre dos ramas previamente visitadas:
+```
+git switch -
+```
++ 
+
 ## Estado de archivos
 ```
 git status
