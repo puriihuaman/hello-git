@@ -56,6 +56,10 @@ Ver el historial de forma resumida:
 ```
 git log --oneline
 ```
+Ver historial completo de todos los commits:
+```
+git reflog
+```
 
 ## Moverse entre commits
 ```
@@ -72,20 +76,33 @@ Para usar el alias:
 git name_alias
 ```
 
-
 ## Mostrar cambios
-Muestra que cambios se realizaron y en que archivo:
+Muestra que cambios nuevos se agregaron a que archivo y que se elimino:
 ```
 git diff
 ```
 
 ## Resetear cambios
-Moverse a un punto concreto: 
++ Moverse a un punto concreto de la rama actual: 
 ```
 git checkout <file>
 ```
-Resetear cambios no guardados al último commit:
++ Resetear cambios no guardados, vuelve al último commit de la rama actual:
 ```
 git reset
 ```
++ Volver a un punto(commit) concreto de la rama actual fuerza para volver a ese punto, "casi perdiendo el resto de 
+  commit":
++ **Recuerda**: Git guarda en un historial todos los commit realizado a donde se puede volver, para ver usa <git 
+  reflog>:
+```
+git log --hard <hash [id del commit]>
+```
+## Tag
+Hace referencias a etiquetas.
+Lo usamos para referenciar puntos importantes, como para las versiones de app.
+Para nombrar los tags se recomienda hacerlo en minúsculas, y por lo mucho guiones bajos.
 
++ Para crear un tag:
+```
+```
