@@ -57,6 +57,11 @@ Ver el historial de forma resumida:
 git log --oneline
 ```
 
+## Moverse entre commits
+```
+git checkout <hash [id del commit]>
+```
+
 ## Alias
 Crear un alias para evitar escribir el comando completo del log:
 ```
@@ -65,6 +70,13 @@ git config --global alias.name_alias "log --graph --pretty=oneline"
 Para usar el alias:
 ```
 git name_alias
+```
+
+
+## Mostrar cambios
+Muestra que cambios se realizaron y en que archivo:
+```
+git diff
 ```
 
 ## Resetear cambios
@@ -76,3 +88,4 @@ Resetear cambios no guardados al último commit:
 ```
 git reset
 ```
+
