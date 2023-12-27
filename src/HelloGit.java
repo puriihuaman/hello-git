@@ -1,6 +1,6 @@
 public class HelloGit {
 	public HelloGit(){
-		System.out.println("Hello Git v3");
+		System.out.println("Hello GitHub");
 	}
 
 }
