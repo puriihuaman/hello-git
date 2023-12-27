@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Login {
+public class Login {
+	public Login(){
+		System.out.println("Login");
+	}
 }
