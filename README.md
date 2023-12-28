@@ -206,7 +206,12 @@ git fetch
 git pull origin <branch_name>
 ```
 
-
+## Enlaces de interes
++ [Web](https://git-scm.com/) Documentación
++ [Guía](https://training.github.com/downloads/es_ES/github-git-cheat-sheet/) con comandos de Git más utilizados
++ [Documentación](https://docs.github.com/es) de GitHub
++ [Configuración](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/about-ssh) SSH para GitHub
++ [Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
 
